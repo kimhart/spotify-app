@@ -1,0 +1,135 @@
+.ds-page {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.54;
+  padding: 24px;
+  color: #2f3542;
+  flex: 1;
+  width: 100%;
+  min-height: 100%;
+  max-width: none;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.ds-page--fixed {
+  max-width: 1200px;
+}
+.ds-page--full {
+  padding: 0;
+  margin: 0;
+}
+.ds-page .ds-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.ds-page .ds-row > section,
+.ds-page .ds-row > div:not(.ds-row) {
+  flex: 1;
+}
+.ds-page .ds-col {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.ds-page h1 {
+  font-size: 31px;
+  line-height: 1.54;
+  margin: 0 0 24px;
+  font-weight: 600;
+  color: #2f3542;
+}
+.ds-page h2 {
+  font-size: 25px;
+  line-height: 1.54;
+  margin: 0 0 24px;
+  font-weight: 400;
+  color: #2f3542;
+}
+.ds-page h3 {
+  font-size: 19px;
+  line-height: 1.54;
+  margin: 0 0 16px;
+  font-weight: 400;
+  color: #2f3542;
+}
+.ds-page h4 {
+  font-size: 15px;
+  line-height: 1.54;
+  margin: 0 0 16px;
+  font-weight: 600;
+  color: #2f3542;
+}
+.ds-page h5 {
+  font-size: 13px;
+  line-height: 1.54;
+  margin: 0 0 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #475470;
+}
+.ds-page p,
+.ds-page span {
+  font-size: 13px;
+  line-height: 1.54;
+  margin: 0 0 16px;
+  font-weight: 400;
+}
+.ds-page span {
+  margin: 0 0 0;
+}
+.ds-page a,
+.ds-page a:active,
+.ds-page a:focus,
+.ds-page a:visited {
+  font-size: inherit;
+  font-weight: 600;
+  color: #0a75e3;
+  text-decoration: none;
+}
+.ds-page a:hover {
+  text-decoration: underline;
+}
+.ds-page h1 a,
+.ds-page h2 a,
+.ds-page h3 a,
+.ds-page h4 a,
+.ds-page h5 a,
+.ds-page h1 a:hover,
+.ds-page h2 a:hover,
+.ds-page h3 a:hover,
+.ds-page h4 a:hover,
+.ds-page h5 a:hover,
+.ds-page h1 a:focus,
+.ds-page h2 a:focus,
+.ds-page h3 a:focus,
+.ds-page h4 a:focus,
+.ds-page h5 a:focus,
+.ds-page h1 a:active,
+.ds-page h2 a:active,
+.ds-page h3 a:active,
+.ds-page h4 a:active,
+.ds-page h5 a:active,
+.ds-page h1 a:visited,
+.ds-page h2 a:visited,
+.ds-page h3 a:visited,
+.ds-page h4 a:visited,
+.ds-page h5 a:visited {
+  color: inherit;
+  font-weight: inherit;
+  text-decoration: none;
+}
+.ds-page ul,
+.ds-page ol {
+  margin: 0 0 16px;
+}
+.ds-page small {
+  font-size: 11px;
+  line-height: 1.54;
+}
+.ds-page h4 + p {
+  margin-top: -8px;
+}

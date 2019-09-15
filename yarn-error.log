@@ -1,0 +1,54 @@
+Arguments: 
+  /Users/kim/.nvm/versions/node/v10.10.0/bin/node /usr/local/Cellar/yarn/1.17.3/libexec/bin/yarn.js install
+
+PATH: 
+  /Library/Frameworks/Python.framework/Versions/3.6/bin:/Users/kim/.nvm/versions/node/v10.10.0/bin:/usr/local/opt/coreutils/libexec/gnubin:/usr/local/heroku/bin:/usr/local/bin:/usr/local/sbin:/usr/local/share/npm/bin:/Users/kim/.rbenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  10.10.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: connect ECONNREFUSED 10.10.110.127:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)
+
+npm manifest: 
+  {
+    "name": "spotify-app",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@design/ds-layout": "^1.0.6",
+      "@design/jw-design-library": "^5.2.3",
+      "cookie-parser": "^1.4.4",
+      "cors": "^2.8.5",
+      "express": "^4.17.1",
+      "hash": "^0.2.1",
+      "react": "^16.3.2",
+      "react-dom": "^16.3.2",
+      "react-router": "^5.0.1",
+      "react-router-dom": "^5.0.1",
+      "react-scripts": "1.1.4",
+      "react-spotify-player": "^1.0.4"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "buildCss": "less-watch-compiler --plugins clean-css --main-file=build.less src/less src/less"
+    },
+    "devDependencies": {
+      "less": "^3.0.2",
+      "less-watch-compiler": "^1.11.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
