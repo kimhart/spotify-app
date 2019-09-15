@@ -1,0 +1,55 @@
+.page--connect {
+  background: @gray-blue;
+  color: white;
+  font-family: @lato;
+  padding: 80px 40px 20px;
+
+  h1 {
+    text-align: center;
+    margin-top: 0;
+  }
+
+  .page-instructions {
+    margin: 20px 0;
+    .button--primary {
+      background: @periwinkle;
+      color: white;
+    }
+  }
+
+  .devices-icon {
+    margin-left: 16px;
+  }
+
+  &__images {
+    .ds-flex(center, center);
+    padding: 20px;
+    img:first-of-type { margin-right: 30px; }
+    @media screen and (max-width: 450px) {
+      display: block;
+      img { 
+        width: 90%;
+        &:first-of-type {
+          margin-right: 0;
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+
+  &__helper-copy {
+    font-weight: 300;
+    text-align: center;
+    font-size: 21px;
+    margin-top: 20px;
+    a {
+      text-decoration: none;
+      color: @periwinkle-light;
+      margin-top: 5px;
+      font-size: 19px;
+      display: inline-block;
+    }
+  }
+
+  
+}

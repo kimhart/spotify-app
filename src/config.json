@@ -1,0 +1,28 @@
+{
+  "categories": [
+    {
+      "name": "Meetups & Culture Club",
+      "description": "Background ambient music, mostly without vocals",
+      "playlists": [
+        "spotify:playlist:37i9dQZF1DWTKxc7ZObqeH",
+        "spotify:playlist:37i9dQZF1DWVtzubo4lvxd",
+        "spotify:playlist:37i9dQZF1DWVzZlRWgqAGH",
+        "spotify:playlist:37i9dQZF1DWWQRwui0ExPn",
+        "spotify:playlist:6oT0Mlp59AaLQIRofWphtX",
+        "spotify:playlist:37i9dQZF1DZ06evO2w8fpS"
+      ]
+    },
+    {
+      "name": "Beer Club& PPC Events",
+      "description": "Crowd-pleasers and beats spanning various genres",
+      "playlists": [
+        "spotify:playlist:37i9dQZF1DWWBHeXOYZf74",
+        "spotify:playlist:37i9dQZF1DXaPCIWxzZwR1",
+        "spotify:playlist:4qPSPncQ9Q9DnUK7KFRvvh",
+        "spotify:playlist:7IgXEb8IGSmkVPpxU9GuUM",
+        "spotify:playlist:37i9dQZF1DWVl5gPCRkquk",
+        "spotify:playlist:37i9dQZF1DX0MLFaUdXnjA"
+      ]
+    }
+  ]
+}

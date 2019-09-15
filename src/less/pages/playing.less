@@ -1,0 +1,142 @@
+.page--playing {
+  background: @navy;
+  color: white;
+  padding: 10px 40px 40px;
+
+  @media screen and (max-width: 450px) {
+    padding: 60px 20px 0 20px;
+  }
+
+  &__main {
+    padding: 0 0 20px 0;
+  }
+
+  &__dormant {
+    text-align: center;
+    margin: 100px auto;
+    .button--primary {
+      border: none;
+      background: @periwinkle;
+      color: white;
+      margin: 40px 0;
+      font-family: @lato;
+    }
+    @media screen and (max-width: 450px) {
+      margin: 200px auto;
+    }
+  }
+
+  &__loading {
+    .ds-flex(center, center);
+    height: 100vh;
+  }
+
+  h1 {
+    margin-top: 0;
+    margin-bottom: 25px;
+  }
+
+  h2 {
+    color: white;
+    margin: 0;
+  }
+  
+  h3 {
+    color: @periwinkle;
+    margin-bottom: 10px;
+  }
+
+  &__album-art {
+    padding: 40px 40px 10px;
+    position: relative;
+    @media screen and (max-width: 450px) {
+      padding: 40px 0 10px 0;
+    }
+  }
+
+  &__record-arm {
+    position: absolute;
+    z-index: 10;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: calc(~"50% + 40px");
+    height: 58px;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+    background: @periwinkle;
+    padding: 20px;
+    font-family: @lato;
+    box-sizing: border-box;
+    .ds-flex(center);
+    box-shadow: 0px 0px 20px 4px fade(black, 40%);
+    @media screen and (max-width: 450px) {
+      font-size: 13px;
+      height: 30px;
+    }
+   }
+
+   &__artist {
+    @media screen and (max-width: 450px) {
+      margin-top: 60px;
+    }
+   }
+  
+  &__record {
+    margin: 0 auto;
+    height: 512px;
+    width: 512px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 512px;
+    box-shadow: 0px 0px 20px 4px fade(black, 40%);
+    animation: recordSpin 17s linear infinite 0s;
+    -webkit-animation: recordSpin 17s linear infinite 0s;
+    animation-play-state: paused;
+    -webkit-animation-play-state: paused;
+    &.-spinning {
+      animation-play-state: running;
+      -webkit-animation-play-state: running;
+    }
+    @media screen and (max-width: 450px) {
+      width: 330px;
+      height: 330px;
+      border-radius: 330px;
+    }
+  }
+
+  .soundwave-badge {
+    position: absolute;
+    top: 5%;
+    left: 15%;
+    z-index: 20;
+    box-shadow: none;
+    @media screen and (max-width: 450px) {
+      left: 20px;
+      top: 8%;
+    }
+  }
+
+  .audio-controls {
+    position: absolute;
+    bottom: 12%;
+    right: 8%;
+    @media screen and (max-width: 450px) {
+      left: 0;
+      right: 0;
+      bottom: -8%;
+    }
+  }
+}
+
+@keyframes recordSpin {
+  from {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+  }
+}

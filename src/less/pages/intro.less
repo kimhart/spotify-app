@@ -1,0 +1,88 @@
+.page--intro {
+  background: @navy;
+  min-height: 100vh;
+  padding: 0;
+  color: white;
+  font-family: @lato;
+
+  &.page h1 {
+    margin: 0 0 20px 0;
+    font-weight: 600;
+    font-size: 30px;
+  }
+
+  h2, h3 {
+    font-weight: 300;
+  }
+
+  h3 {
+    margin: 25px 0;
+  }
+
+  h2 {
+    border-bottom: 1px solid @light-gray;
+    display: inline-block;
+    padding-bottom: 20px;
+    font-size: 21px;
+  }
+
+  .page-instructions {
+    background: @gray-blue;
+    text-align: center;
+    position: relative;
+    z-index: 5;
+    padding: 40px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+  }
+
+  &__submit {
+    background: @periwinkle;
+    margin-top: -40px;
+    padding: 60px 40px 20px 40px;
+    .ds-flex(center, space-between);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+    > div {
+      .ds-flex(center, center);
+    }
+
+    .button--primary {
+      background: @blue-fade;
+      font-family: @lato;
+      border: 0;
+      height: 50px;
+      color: white;
+      .ds-flex(center, center);
+
+      svg {
+        margin-right: 8px;
+      }
+    }
+    h4 {
+      font-size: 19px;
+    }
+  }
+
+  &__playing {
+    background: @navy;
+    text-align: center;
+    padding: 30px;
+    border-radius: 0;
+    h4 {
+      font-weight: 300;
+      font-size: 19px;
+      margin: 10px;
+    }
+  }
+
+  @media screen and (max-width: 450px) {
+    h2 { font-size: 17px; }
+    &__submit {
+      display: block;
+      text-align: center;
+      padding-bottom: 40px;
+    }
+  }
+}

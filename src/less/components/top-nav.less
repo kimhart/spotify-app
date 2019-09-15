@@ -1,0 +1,26 @@
+.nav-button {
+  background: @blue-fade;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  margin-left: 10px;
+  border: 0;
+  .ds-flex(center, center);
+}
+
+.top-nav {
+  .ds-flex();
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  .nav-button {
+    cursor: pointer;
+    background: fade(black, 20%);
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    &.-is-active {
+      border: 1px solid white;
+    }
+  }
+}
