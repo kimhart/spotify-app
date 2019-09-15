@@ -28,7 +28,7 @@
     grunt-postcss "^0.8.0"
     load-grunt-tasks "^3.5.0"
 
-"@design/jw-design-library@^5.2.3", "@design/jw-design-library@github:jwplayer/jw-design-library#v5.2.3":
+"@design/jw-design-library@^5.2.3", "@design/jw-design-library@jwplayer/jw-design-library#v5.2.3":
   version "5.2.3"
   resolved "https://codeload.github.com/jwplayer/jw-design-library/tar.gz/3807de8bc06880f525ceeaf9938b47f9e1cfb2f3"
 
