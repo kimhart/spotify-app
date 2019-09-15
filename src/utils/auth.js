@@ -1,6 +1,6 @@
 export const authEndpoint = "https://accounts.spotify.com/authorize";
 export const clientId = "562c0c1d524e4040b18f97152a39a711";
-export const redirectUri = window.location.host === "music.longtailvideo.com" ? "https://jw-spotify-app.netlify.com/" : "http://192.168.18.103:3000";
+export const redirectUri = window.location.host === "jw-spotify-app.netlify.com/" ? "https://jw-spotify-app.netlify.com/" : "http://192.168.18.103:3000";
 export const scopes = [
   "user-read-currently-playing",
   "user-read-playback-state",
